@@ -7,7 +7,17 @@ export const englishWord = {
 	translation: ''
 };
 
+export const translation = {
+	english: '',
+	local: ''
+}
+
 /**
  * @type {import("svelte/store").Writable<englishWord[]>}
  */
 export const englishWords = writable([]);
+
+/**
+ * @type {import("svelte/store").Writable<translation[]>}
+ */
+export const translations = writable([]);

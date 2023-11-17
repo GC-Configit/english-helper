@@ -8,10 +8,6 @@
 		pastParticiple: '',
 		translation: ''
 	};
-	/**
-	 * @type {input[]}
-	 */
-	let list = [];
 
 	onMount(() => {
 		const data = localStorage.getItem('data');

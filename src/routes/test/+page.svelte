@@ -29,15 +29,15 @@
 	}
 
 	function generateExample() {
-		let abc = testData.pop();
+		let nextExample = testData.pop();
 
-		if (!abc) {
+		if (!nextExample) {
 			alert('Koniec przykładów');
 			stop();
 			return;
 		}
 
-		currentExample = abc;
+		currentExample = nextExample;
 
 		input = {
 			infinitive: '',
