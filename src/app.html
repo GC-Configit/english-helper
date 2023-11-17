@@ -5,9 +5,25 @@
 		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		%sveltekit.head%
+		<style>
+			.nav-bar{
+				background-color: green;
+				min-height: 3rem;
+				display: flex;
+			}
+			.nav-bar a{
+				color: white;
+				text-decoration: none;
+				padding: 1rem;
+			}
+			.nav-bar a:hover{
+				color: red;
+				font-weight: bold;
+			}
+		</style>
 	</head>
 	<body data-sveltekit-preload-data="hover">
-		<div>
+		<div class="nav-bar">
 			<a href="/">home</a>
 			<a href="/data">dane</a>
 			<a href="/test">test</a>

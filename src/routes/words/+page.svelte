@@ -18,7 +18,7 @@
 </script>
 
 <div class="container">
-    <div class="nav-bar">
+    <div class="local-nav-bar">
             <button on:click={selectTest}>słówka - test </button>
             <button on:click={selectLibrary}>Bibilioteka słówek</button>
     </div>
